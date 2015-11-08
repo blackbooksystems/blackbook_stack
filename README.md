@@ -1,3 +1,7 @@
+#BLACKBOOK SYSTEMS
+
+The open encrypted stack for all of your data
+
 #BLACKBOOK SYSTEMS WARRANT CANARY
 
 Existing and proposed laws, especially as relate to the US Patriot Act, etc., provide
@@ -60,3 +64,7 @@ This scheme is not infallible.  Although signing the declaration makes it imposs
 The news clip in the signed message serves to demonstrate that that update could not have been created prior to that date.  It shows that a series of these updates were not created in advance and posted on this page.
 
 BLACKBOOK.SYSTEMS can be contacted for business at r00t@blackbook.systems
+
+# LINKS
+
+http://blackbooksystems.github.io/blackbook_docker/

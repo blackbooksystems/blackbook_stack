@@ -51,7 +51,8 @@ F2fd1NfZ2ckkXO+g35KJ
 =y+4f
 -----END PGP SIGNATURE-----
 
-The primary BLACKBOOK.SYSTEMS public key is on the project's github page.
+The primary BLACKBOOK.SYSTEMS public key is at:
+https://github.com/blackbooksystems/blackbook_docker/blob/master/r00t%40blackbook.systems.asc
 
 Notes:
 

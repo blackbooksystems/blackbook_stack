@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3E71181A822CC793C8250AC31A5BDEDD227E66DD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3E71181A822CC793C8250AC31A5BDEDD227E66DD" : 0,
+    "8C37A64C5BF3D20848862A22506583513E54AC2C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AE16B070-3E75-4A6F-BBB0-8099601BB22B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3E71181A822CC793C8250AC31A5BDEDD227E66DD" : "blackbook_stack\/",
+    "8C37A64C5BF3D20848862A22506583513E54AC2C" : "blackbook_stack\/crypto\/libntru\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "bb_ntru_poc",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "crypto\/bb_ntru_poc\/bb_ntru_poc.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/blackbooksystems\/blackbook_stack.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3E71181A822CC793C8250AC31A5BDEDD227E66DD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tbuktu\/libntru.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8C37A64C5BF3D20848862A22506583513E54AC2C"
+    }
+  ]
+}

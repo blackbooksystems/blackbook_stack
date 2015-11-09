@@ -65,6 +65,16 @@ The news clip in the signed message serves to demonstrate that that update could
 
 BLACKBOOK.SYSTEMS can be contacted for business at r00t@blackbook.systems
 
+# GETTING STARTED WITH DOCKER
+
+https://kitematic.com/
+http://www.docker.com/aws?gclid=CLyqmY-FgskCFUmUfgodUa4E5g
+https://cloud.google.com/compute/docs/containers?hl=en
+https://docs.vagrantup.com/v2/provisioning/docker.html
+https://coreos.com/
+http://rancher.com/
+http://panamax.io/
+
 # LINKS
 
 http://blackbooksystems.github.io/blackbook_docker/

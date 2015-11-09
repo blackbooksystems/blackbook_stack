@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B34E7B791BF133F6007071E9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B34E7B781BF133F6007071E9 /* main.c */; };
-		B34E7B811BF1348E007071E9 /* libntru.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B34E7B801BF1348E007071E9 /* libntru.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +25,6 @@
 /* Begin PBXFileReference section */
 		B34E7B751BF133F6007071E9 /* bb_ntru_poc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bb_ntru_poc; sourceTree = BUILT_PRODUCTS_DIR; };
 		B34E7B781BF133F6007071E9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		B34E7B801BF1348E007071E9 /* libntru.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libntru.dylib; path = ../libntru/libntru.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +32,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B34E7B811BF1348E007071E9 /* libntru.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,7 +41,6 @@
 		B34E7B6C1BF133F6007071E9 = {
 			isa = PBXGroup;
 			children = (
-				B34E7B7F1BF1346C007071E9 /* ntrulibs */,
 				B34E7B771BF133F6007071E9 /* bb_ntru_poc */,
 				B34E7B761BF133F6007071E9 /* Products */,
 			);
@@ -64,14 +60,6 @@
 				B34E7B781BF133F6007071E9 /* main.c */,
 			);
 			path = bb_ntru_poc;
-			sourceTree = "<group>";
-		};
-		B34E7B7F1BF1346C007071E9 /* ntrulibs */ = {
-			isa = PBXGroup;
-			children = (
-				B34E7B801BF1348E007071E9 /* libntru.dylib */,
-			);
-			name = ntrulibs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

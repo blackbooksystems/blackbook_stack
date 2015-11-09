@@ -11,8 +11,6 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("bb:  Hello, World!\n");
     
     
     
@@ -27,7 +25,7 @@ int main(int argc, const char * argv[]) {
     
     /* deterministic key generation from password */
     uint8_t seed[17];
-    strcpy(seed, "my test password");
+    strcpy(seed, "my test passwordd");
     NtruRandGen rng_igf2 = NTRU_RNG_IGF2;
     NtruRandContext rand_ctx_igf2;
     if (ntru_rand_init_det(&rand_ctx_igf2, &rng_igf2, seed, strlen(seed)) != NTRU_SUCCESS)
@@ -35,13 +33,19 @@ int main(int argc, const char * argv[]) {
     if (ntru_gen_key_pair(&params, &kp, &rand_ctx_igf2) != NTRU_SUCCESS)
         printf("keygen fail\n");
     
+    uint8_t pubK[170];
+    ntru_export_priv(&kp.priv, pubK);
+    printf("----------------------------\n");
+    printf("%u",pubK);
+    printf("----------------------------\n");
+    
     /* encryption */
-    uint8_t msg[9];
-    strcpy(msg, "whatever");
+    uint8_t msg[60];
+    strcpy(msg, "whateverr12345whateverr12345whateverr12345whateverr12345");
     uint8_t enc[ntru_enc_len(&params)];
     if (ntru_encrypt(msg, strlen(msg), &kp.pub, &params, &rand_ctx_def, enc) != NTRU_SUCCESS)
         printf("encrypt fail\n");
-    
+//    printf(enc);
     /* release RNG resources */
     if (ntru_rand_release(&rand_ctx_def) != NTRU_SUCCESS)
         printf("rng fail\n");
@@ -61,8 +65,6 @@ int main(int argc, const char * argv[]) {
     /* import key from uint8_t array */
     NtruEncPubKey pub;
     ntru_import_pub(pub_arr, &pub);
-    
-    
     
     
     

@@ -6,7 +6,7 @@
 //  Copyright © 2015 Bruce Daniel. All rights reserved.
 //
 
-//#include "ntru.h"
+#include "ntru.h"
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {

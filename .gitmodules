@@ -4,3 +4,9 @@
 [submodule "openssl"]
         path = crypto/openssl
         url = https://github.com/blackbooksystems/openssl.git
+[submodule "crypto/openssl"]
+	path = crypto/openssl
+	url = https://github.com/blackbooksystems/openssl.git
+[submodule "crypto/libntru"]
+	path = crypto/libntru
+	url = https://github.com/blackbooksystems/libntru.git

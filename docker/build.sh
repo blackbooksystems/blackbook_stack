@@ -3,4 +3,6 @@ docker build -t blackbook/etherpad etherpad
 docker build -t blackbook/ethercalc ethercalc
 docker build -t blackbook/proxy proxy
 docker build -t blackbook/lychee lychee
-docker build -t blackbook/ghost mediadrop
+#docker build -t blackbook/mediadrop mediadrop
+docker build -t blackbook/elasticsearch elasticsearch
+#docker build -t blackbook/ghost ghost

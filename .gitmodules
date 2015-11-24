@@ -7,3 +7,12 @@
 [submodule "docker/cloud9"]
 	path = docker/cloud9
 	url = https://github.com/blackbooksystems/cloud9-docker.git
+[submodule "docker/ethercalc"]
+	path = docker/ethercalc
+	url = https://github.com/blackbooksystems/ethercalc.git
+[submodule "docker/proxy"]
+	path = docker/proxy
+	url = https://github.com/blackbooksystems/nginx-proxy.git
+[submodule "docker/etherpad"]
+	path = docker/etherpad
+	url = https://github.com/blackbooksystems/etherpad-docker.git

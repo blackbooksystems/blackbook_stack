@@ -22,3 +22,6 @@
 [submodule "docker/ghost"]
 	path = docker/ghost
 	url = https://github.com/blackbooksystems/ghost.git
+[submodule "docker/mediadrop"]
+	path = docker/mediadrop
+	url = https://github.com/blackbooksystems/mediadrop-dockerfile.git

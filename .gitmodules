@@ -4,3 +4,6 @@
 [submodule "crypto/libntru"]
 	path = crypto/libntru
 	url = https://github.com/blackbooksystems/libntru.git
+[submodule "docker/cloud9"]
+	path = docker/cloud9
+	url = https://github.com/blackbooksystems/cloud9-docker.git

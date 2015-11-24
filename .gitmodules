@@ -16,3 +16,9 @@
 [submodule "docker/etherpad"]
 	path = docker/etherpad
 	url = https://github.com/blackbooksystems/etherpad-docker.git
+[submodule "docker/lychee"]
+	path = docker/lychee
+	url = https://github.com/blackbooksystems/lychee-docker.git
+[submodule "docker/ghost"]
+	path = docker/ghost
+	url = https://github.com/blackbooksystems/ghost.git

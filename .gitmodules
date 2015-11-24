@@ -25,9 +25,6 @@
 [submodule "docker/mediadrop"]
 	path = docker/mediadrop
 	url = https://github.com/blackbooksystems/mediadrop-dockerfile.git
-[submodule "docker/docker/elasticsearch"]
-	path = docker/docker/elasticsearch
-	url = https://github.com/blackbooksystems/elasticsearch.git
 [submodule "docker/elasticsearch"]
 	path = docker/elasticsearch
 	url = https://github.com/blackbooksystems/elasticsearch.git
